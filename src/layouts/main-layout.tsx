@@ -1,7 +1,8 @@
 import Header from "@/components/header";
-import Footer from "@/components/footer";
+
 import {Container} from "@/components/container"
 import { Outlet } from "react-router-dom";
+import { Footer } from "@/components/footer";
 export const MainLayout =()=>{
     return(
         <div className="flex flex-col h-screen">
@@ -13,7 +14,7 @@ export const MainLayout =()=>{
                 
               </main>
             </Container>
-            <Footer />
+            <Footer/>
 
            
         </div>
